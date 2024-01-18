@@ -1,0 +1,1 @@
+console.log('This is example of an external script');

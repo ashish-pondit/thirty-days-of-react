@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+
+    <!-- CSS Reset -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+
+    <!-- Milligram CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+
+    <!-- You should properly set the path from the main file. -->
+    <title>Day-1: Javascript Refresher</title>
+</head>
+<body>
+
+    <h1>Javascript can be added to a web page in three ways</h1>
+    <ol>
+        <li>Inline Script</li>
+        <li>Internal Script</li>
+        <li>External Script</li>
+        <li>Multiple External Scripts</li>
+    </ol>
+
+    <h2>Inline Script</h2>
+    <!-------- Inline Script ----------->
+    <button onclick="alert('This is done by inline js')">Click</button>
+    
+    <h2>Internal Script</h2>
+    <details>
+        <summary>How to write interal script?</summary>
+        <p>The internal script can be written in the head or the body, but it is preferred to <b>put in on the body</b> of the html.</p>
+    </details>
+    <!-- Internal Script -->
+    <script>
+        console.log("This is done by Internal script");
+    </script>
+
+
+    <h2>External Script</h2>
+    <!-- External Script  -->
+    <script src="introduction.js"></script>
+    
+    <h2>Multiple External Scripts</h2>
+    <script src="hello-world.js"></script>
+
+</body>
+</html>
